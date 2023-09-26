@@ -1,0 +1,414 @@
+{
+  "categories": [
+    {
+      "category_name": "VAPE POD",
+      "category_image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/categories%2F16-2-400x400.png?alt=media&token=4581576d-c5c7-4bb6-8dc6-8665e642e824",
+      "id": 1
+    },
+    {
+      "category_name": "TINH DẦU SALT",
+      "category_image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/categories%2F2-400x400.png?alt=media&token=eea437aa-1260-4053-8c31-cf51c2bd00e5",
+      "id": 2
+    },
+    {
+      "category_name": "TINH DẦU FREEBASE",
+      "category_image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/categories%2Fchanh-vang-chanh-leo-viet-quat-lanh-lemon-passionfruit-blueberry-7-daze-fusion-100ml-vapeclub-400x400.png?alt=media&token=85c2e996-dff3-4760-81cd-fbceb79f9b41",
+      "id": 3
+    },
+    {
+      "category_name": "PHỤ KIỆN VAPE",
+      "category_image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/categories%2F1-1-400x400.jpg?alt=media&token=eb51a92d-cdbf-4684-960e-dd9087e35af4",
+      "id": 4
+    },
+    {
+      "category_name": "POD 1 LẦN",
+      "category_image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/categories%2Fdotmod-dot-disposable-dao-lanh-vapeclub-400x400.png?alt=media&token=4622d5e6-dd68-4a2c-89a8-ea033012fbd7",
+      "id": 5
+    }
+  ],
+  "users": [
+    {
+      "email": "anhduc@gmail.com",
+      "password": "$2a$10$NYBEQ06VLpEHSgJZjJnmL.F4JXowUyrg9jcTA32syWTiQb3kYPhz2",
+      "user_name": "Nguyen anh duc",
+      "dateOfBirth": "2023-09-25",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2Fimages.jpg?alt=media&token=58b7eed2-bcd9-4ec3-b484-a65c87443000",
+      "role": 1,
+      "active": true,
+      "id": 3
+    },
+    {
+      "email": "anhhuy@gmail.com",
+      "password": "$2a$10$kBHYjQBtXBL7iOmhZHt6s.r4mKzQAjdBWBZqV/aNvdVOYiDVq9qjG",
+      "user_name": "Vu Minh Huy",
+      "dateOfBirth": "2023-09-25",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2FHinh-Lisa-Blackpink-ngau-cool-nhat.jpg?alt=media&token=6fb72df9-ae87-4542-93af-0f590b915b20",
+      "role": 1,
+      "active": true,
+      "id": 4
+    },
+    {
+      "email": "anhbeo@gmail.com",
+      "password": "$2a$10$PZlHy9t9pZyq.AsxnBLn9ObROxRfOpOTBLTbBjZYhIxSMoNBz7LTK",
+      "user_name": "Nguyen Viet Anh",
+      "dateOfBirth": "2023-09-25",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2Fimages%20(1).jpg?alt=media&token=70b96f43-1a88-476e-9001-d5825e300444",
+      "role": 1,
+      "active": true,
+      "id": 5
+    },
+    {
+      "email": "admin1@gmail.com",
+      "password": "$2a$10$j/QKXCsA0G7aXnPjZBseSO6V7BYSQ8wdGetYtDzdLDPF06BNRsqLW",
+      "user_name": "admin",
+      "dateOfBirth": "2023-09-25",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2Fanh-avatar-bua-gau-truc-weibo.jpg?alt=media&token=afe71bd2-54cd-428f-9093-30dc0888e102",
+      "role": 0,
+      "active": true,
+      "id": 6
+    }
+  ],
+  "products": [
+    {
+      "product_name": "ZQ Xtal Pro 30w Kit",
+      "price": "550000",
+      "description": "ZQ Xtal Pro 30w Kit đến từ ZQ được đánh giá cao không chỉ nhờ ngoại hình đẹp được thiết kế tỉ mỉ từng đường nét giúp thân máy nhìn cứng cáp và chắc chắn mà còn đến từ sự vận hành của máy trơn chu, mượt mà mang lại cho người dùng hương vị đỉnh cao.",
+      "category_id": 1,
+      "quantity": 37,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fzq-xtal-pro-pod-system-kit-vapeclub-400x400.png?alt=media&token=2abf7bd1-f896-4217-b0ee-f592295a0d24",
+      "id": 1
+    },
+    {
+      "product_name": "YiHi SXmini T Class Box",
+      "price": "1500000",
+      "description": "YiHi SXmini T Class Box Mod là một trong những thiết bị có hiệu suất hoạt động mạnh nhất trên thị trường, ứng dụng chip YiHi mạnh nhất cùng form dáng hút mắt nhất",
+      "category_id": 1,
+      "quantity": 13,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F16-2-400x400.png?alt=media&token=a3ba4bd4-fda8-4366-882b-5e1bc09dd9b4",
+      "id": 2
+    },
+    {
+      "product_name": "Wotofo SMRT 80w ",
+      "price": "500000",
+      "description": "Wotofo SMRT 80w Pod Kit 80W có pin 2000mAh tích hợp, phạm vi đầu ra 5-80W và có thể sử dụng cuộn dây GTX hoặc cuộn PnP trong pod 4mL của SMRT.",
+      "category_id": 1,
+      "quantity": 17,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fwotofo-smrt-80w-pod-kit-vapeclub-400x400.png?alt=media&token=977385c8-95e8-48fc-ab1c-a68034d0d950",
+      "id": 3
+    },
+    {
+      "product_name": "Vinci Q Pod Kit By Voopoo",
+      "price": "250000",
+      "description": "Vinci Q Pod Kit by Voopoo có công suất tối đa 15W và được cung cấp bởi pin tích hợp 900mAh, đèn báo LED hoạt động để nhắc nhở bạn về nguồn điện. Thông qua lực hút từ tính, nó có kết nối ổn định với thiết bị và giúp bạn tận hưởng vaping liền mạch.",
+      "category_id": 1,
+      "quantity": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fvoopoo-vinci-q-pod-kit-vapeclub-400x400.png?alt=media&token=d42031ab-2329-458a-826e-da53b30a3c2d",
+      "id": 4
+    },
+    {
+      "product_name": "Vaptio Avocado Baby",
+      "price": "600000",
+      "description": "Avocado Baby là một chiếc pod mod có màu sắc tươi sáng, trang nhã. Dung tích pin 1100mAh và pod 2ml cho thời lượng sử dụng dài, thích hợp với cả MTL lẫn DTL.",
+      "category_id": 1,
+      "quantity": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Favocado-baby-pod-vapeclub-400x400.png?alt=media&token=5b431214-96a5-41b4-86dc-8375d9a05efa",
+      "id": 5
+    },
+    {
+      "product_name": "Vape Storm Ares ",
+      "price": "200000",
+      "description": "Vape Storm Ares Pod Kit là một bộ hệ thống pod nhỏ gọn, di động mà bạn có thể mang theo bên mình. Được trang bị pin bên trong 560mAh và dung tích nước ép điện tử 1.6ml, nó có thể đáp ứng nhu cầu sử dụng thuốc lá điện tử lâu dài.",
+      "category_id": 1,
+      "quantity": 16,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fvaporstorm-ares-pod-kit-vapeclub-400x400.png?alt=media&token=6b5d1af8-e621-4b53-b040-4cbaf5ba39f9",
+      "id": 6
+    },
+    {
+      "product_name": "URSA Baby Pro Lost",
+      "price": "500000",
+      "description": "URSA Baby Pro là chiến binh mới nhất vừa được nhà Lost Vape tung ra thị trường vào giữa tháng 12/2022. Sự xuất hiện của pod URSA Baby Pro hứa hẹn sẽ mang đến nhiều sóng gió cho đường đua pod system cuối năm nay.",
+      "category_id": 1,
+      "quantity": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F3-400x400.png?alt=media&token=8a5effd9-8e43-4727-a5c6-b8d6285e24c5",
+      "id": 7
+    },
+    {
+      "product_name": "Tesla WYE Pod Kit ",
+      "price": "150000",
+      "description": "URSA Baby Pro là chiến binh mới nhất vừa được nhà Lost Vape tung ra thị trường vào giữa tháng 12/2022. Sự xuất hiện của pod URSA Baby Pro hứa hẹn sẽ mang đến nhiều sóng gió cho đường đua pod system cuối năm nay.",
+      "category_id": 1,
+      "quantity": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F1-5-400x400.png?alt=media&token=485d1422-e577-4ca2-8e3a-d1ca0f1113be",
+      "id": 8
+    },
+    {
+      "product_name": "Rincoe Jellybox SE ",
+      "price": "350000",
+      "description": "Rincoe Jellybox SE Pod Kit là một vape pod siêu nhỏ nhưng mạnh mẽ, cũng là sự tiếp nối của dòng Jellybox. Với thiết kế hoàn toàn trong suốt và chức năng mạnh mẽ, bạn sẽ có được trải nghiệm vaping chưa từng có.",
+      "category_id": 1,
+      "quantity": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Frincoe-jellybox-se-pod-kit-vapeclub-400x400.png?alt=media&token=83f480cc-241e-48c4-957f-9526370f43fa",
+      "id": 9
+    },
+    {
+      "product_name": "Perky Manta 10W",
+      "price": "150000",
+      "description": "Perky Manta 10W Pod Kit System mang kiểu dáng pod mod mỏng, thanh lịch nhỏ gọn nhưng không kém phần sang trọng, được thiết kế để sử dụng với tinh dầu Saltnic",
+      "category_id": 1,
+      "quantity": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2FPerky-Manta-10W-Pod-Kit-vapeclub-400x400.png?alt=media&token=67f7064c-f86c-452e-8e87-2c6c84bb41c8",
+      "id": 10
+    },
+    {
+      "product_name": "Usalt E-Liquid Peach Ice 30ml 30mg",
+      "price": "250000",
+      "description": "Usalt E-Liquid Peach Ice 30ml 30mg tinh dầu chính hãng USA vị đào lạnh thơm mát sảng khoá",
+      "category_id": 2,
+      "quantity": 28,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fjuice-tokyo-freebase-60ml-3mg-tao-lanh-vapeclub-400x400.png?alt=media&token=e4a6e818-7dbb-4aab-b968-9f0c1768763e",
+      "id": 11
+    },
+    {
+      "product_name": "Usalt E-Liquid Banana Ice 30ml 30mg",
+      "price": "250000",
+      "description": "Usalt E-Liquid Banana Ice 30ml 30mg Tinh dầu chính hãng USA vị chuối lạnh cực thơm ngon mát lạnh",
+      "category_id": 2,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F1-400x400.png?alt=media&token=57c1fb66-0f60-4789-bd0d-262a4c095d05",
+      "id": 12
+    },
+    {
+      "product_name": "Usalt E-Liquid Apple Ice 30ml 30mg",
+      "price": "250000",
+      "description": "Usalt E-Liquid Apple Ice 30ml 30mg tinh dầu chính hãng USA vị táo lạnh the mát",
+      "category_id": 2,
+      "quantity": 28,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F8-400x400.png?alt=media&token=c186cb23-f68b-4f41-853f-9c2656042186",
+      "id": 13
+    },
+    {
+      "product_name": "Usalt E-Liquid Apple Ice 30ml",
+      "price": "300000",
+      "description": "Queen Salt Plus Vang Nho 30ml 35mg",
+      "category_id": 2,
+      "quantity": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2FQueen-salt-plus-vang-nho-30ml-35mg-vapeclub-400x400.png?alt=media&token=db211550-f3ec-4146-8c6b-d4d378120156",
+      "id": 14
+    },
+    {
+      "product_name": "7 Daze Fusion Iced Lemon",
+      "price": "350000",
+      "description": "7 Daze Fusion Iced Lemon Passionfruit Blueberry 100ml - Tinh Dầu Vape Chính Hãng vị việt quất mix chanh vỏ vàng và chanh dây, hòa quyện cùng đá viên mát lạnh cực sảng khoái",
+      "category_id": 3,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fchanh-vang-chanh-leo-viet-quat-lanh-lemon-passionfruit-blueberry-7-daze-fusion-100ml-vapeclub-400x400.png?alt=media&token=5506d0c7-c3ec-40cb-9063-c7f92a52e024",
+      "id": 17
+    },
+    {
+      "product_name": "Tokyo Juice 60ml Freebase ",
+      "price": "350000",
+      "description": "Tokyo Juice 60ml Freebase Táo Lạnh 3mg và độ lạnh không đối thủ, với hương vị xuất sắc mà tokyo mang lại chắc chắn sẽ khiến bạn phải hài lòng",
+      "category_id": 3,
+      "quantity": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fjuice-tokyo-freebase-60ml-3mg-tao-lanh-vapeclub-400x400.png?alt=media&token=73fa90c1-6bc6-4a2f-8920-32ea3e78e541",
+      "id": 18
+    },
+    {
+      "product_name": "Tokyo Juice 60ml Freebase ",
+      "price": "350000",
+      "description": "Tokyo Juice 60ml Freebase Xoài Lạnh 3mg và độ lạnh không đối thủ, với hương vị xuất sắc mà tokyo mang lại chắc chắn sẽ khiến bạn phải hài lòng.",
+      "category_id": 3,
+      "quantity": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fjuice-tokyo-freebase-60ml-3mg-chuoi-lanh-vapeclub-400x400.png?alt=media&token=5582c9d3-d3e8-41a7-9f69-d148746bfb3d",
+      "id": 19
+    },
+    {
+      "product_name": "Tinh Dầu Hi Drip Iced Ổi Dâu ",
+      "price": "380000",
+      "description": "Tinh dầu Hi Drip Iced Ổi Dâu 100ml hương Ổi thơm nồng nàn kết hợp cùng mùi Dâu ngọt ngào thanh mát khiến bạn khó cưỡng lại.",
+      "category_id": 3,
+      "quantity": 29,
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Ftinh-dau-hi-drip-iced-guava-lava-oi-dau-100ml-vapeclub-400x400.png?alt=media&token=6c021583-5ed6-4764-afef-170351c36774",
+      "id": 22
+    },
+    {
+      "product_name": "Đầu Thay Thế Akus Pod ",
+      "price": "250000",
+      "description": "Đầu thay thế Akus Pod by vapor storm",
+      "category_id": 4,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdau-pod-akus-vapeclub-400x400.png?alt=media&token=1c6a9a97-c2aa-4eeb-b620-7a5504324966",
+      "id": 24
+    },
+    {
+      "product_name": "Đầu Pod Demon Killer ",
+      "price": "250000",
+      "description": "Đầu Pod Demon Killer Fod Pack 3 cái",
+      "category_id": 4,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F1-400x400.jpg?alt=media&token=2968b185-0750-4130-b3fe-32b2c85b51ea",
+      "id": 25
+    },
+    {
+      "product_name": "Đầu Pod Cho Ares Pod Kit ",
+      "price": "150000",
+      "description": "Đầu Pod Demon Killer Fod Pack 3 cái",
+      "category_id": 4,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F1-1-400x400.jpg?alt=media&token=22a74d65-ae98-44e6-9f27-c79ebe3b09fb",
+      "id": 26
+    },
+    {
+      "product_name": "Tesla WYE Pod Cartridge 2ml",
+      "price": "200000",
+      "description": "Đầu Pod Demon Killer Fod Pack 3 cái",
+      "category_id": 4,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fpod2ml.vc_-400x400.png?alt=media&token=861d58a1-cf3a-49d3-8cf7-01fd145a1809",
+      "id": 27
+    },
+    {
+      "product_name": "Dotmod Dot Disposable",
+      "price": "150000",
+      "description": "Đào Lạnh ngọt cực ngon, cực mát lạnh.",
+      "category_id": 5,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdotmod-dot-disposable-dao-lanh-vapeclub-400x400.png?alt=media&token=e702718a-a133-4b3d-811f-92df98183b5e",
+      "id": 28
+    },
+    {
+      "product_name": "Dotmod Dot Disposable",
+      "price": "150000",
+      "description": "hương vị táo đỏ chua ngọt cực ngon, cực mát lạnh.",
+      "category_id": 5,
+      "quantity": "30",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdotmod-dot-disposable-tao-do-vapeclub-400x400.png?alt=media&token=c0bb9a40-cee1-4c14-869c-f6f64f69a0e1",
+      "id": 29
+    },
+    {
+      "product_name": "Dotmod Dot Disposable",
+      "price": "150000",
+      "description": "Táo Xanh chua ngọt cực ngon, cực mát lạnh.",
+      "category_id": 5,
+      "quantity": "22",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdotmod-dot-disposable-tao-lanh-vapeclub-400x400.png?alt=media&token=4e29c185-e307-41c9-8da4-db66d5aaa545",
+      "id": 30
+    },
+    {
+      "product_name": "Dotmod Dot Disposable ",
+      "price": "150000",
+      "description": " Mâm xôi chanh chua ngọt cực ngon, cực mát lạnh.",
+      "category_id": 5,
+      "quantity": "20",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdotmod-dot-disposable-mam-xoi-chanh-vapeclub-400x400.png?alt=media&token=ea70a6e7-751f-45cc-8af6-ac5714e367dd",
+      "id": 31
+    }
+  ],
+  "carts": [
+    {
+      "userId": 3,
+      "cart": [
+        {
+          "idProduct": 14,
+          "quantity": 4
+        },
+        {
+          "idProduct": 11,
+          "quantity": 1
+        },
+        {
+          "idProduct": 13,
+          "quantity": 1
+        }
+      ],
+      "id": 1
+    },
+    {
+      "userId": 6,
+      "cart": [],
+      "id": 2
+    },
+    {
+      "userId": 5,
+      "cart": [],
+      "id": 3
+    },
+    {
+      "userId": 4,
+      "cart": [],
+      "id": 4
+    }
+  ],
+  "orders": [
+    {
+      "id": 1695736164904,
+      "userId": 3,
+      "cart": [
+        {
+          "idProduct": 11,
+          "quantity": 1
+        },
+        {
+          "idProduct": 18,
+          "quantity": 1
+        },
+        {
+          "idProduct": 2,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 2100000,
+      "note": "âsâsa",
+      "date": "20:49:24 26/9/2023",
+      "status": 2
+    },
+    {
+      "id": 1695742797114,
+      "userId": 4,
+      "cart": [
+        {
+          "idProduct": 13,
+          "quantity": 2
+        },
+        {
+          "idProduct": 14,
+          "quantity": 1
+        },
+        {
+          "idProduct": 19,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 1150000,
+      "note": "",
+      "date": "22:39:57 26/9/2023",
+      "status": 2
+    },
+    {
+      "id": 1695742809895,
+      "userId": 5,
+      "cart": [
+        {
+          "idProduct": 11,
+          "quantity": 1
+        },
+        {
+          "idProduct": 22,
+          "quantity": 1
+        },
+        {
+          "idProduct": 2,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 2130000,
+      "note": "",
+      "date": "22:40:09 26/9/2023",
+      "status": 0
+    }
+  ]
+}
