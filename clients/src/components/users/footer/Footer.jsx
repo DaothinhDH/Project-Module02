@@ -19,7 +19,6 @@ export default function Footer() {
           </div>
 
           <div className="box">
-            <h2>About Us</h2>
             <ul>
               <li>Careers</li>
               <li>Our Stores</li>
@@ -29,7 +28,6 @@ export default function Footer() {
             </ul>
           </div>
           <div className="box">
-            <h2>Customer Care</h2>
             <ul>
               <li>Help Center </li>
               <li>How to Buy </li>
@@ -39,7 +37,6 @@ export default function Footer() {
             </ul>
           </div>
           <div className="box">
-            <h2>Contact Us</h2>
             <ul>
               <li>
                 Nhà 00b ngõ 896 đường 000, 000,000, Hà Nội{" "}

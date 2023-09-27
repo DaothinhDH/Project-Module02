@@ -70,6 +70,50 @@
       "role": 0,
       "active": true,
       "id": 6
+    },
+    {
+      "email": "thang@gmailcom",
+      "password": "$2a$10$nDxCIg0DD9YYXP6h/q.1N.BxcYZ6kFYN5owZTNqbye6VXtLBDYYmq",
+      "user_name": "Nguyễn văn Thắng",
+      "dateOfBirth": "2023-09-27",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2Fimages.jpg?alt=media&token=74591888-2d58-4538-9408-10a2cc25a8f1",
+      "role": 1,
+      "active": false,
+      "id": 7
+    },
+    {
+      "email": "demo@gmail.com",
+      "password": "$2a$10$GDaGExPnjCfPXwt63ys15Oaz0qQ7PLZFEwU7axFgHesUhB0LOQeIm",
+      "user_name": "demo1",
+      "dateOfBirth": "2023-09-27",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2Fimages.jpg?alt=media&token=7523bc61-8841-49e6-ab87-c14516bdf22c",
+      "role": 1,
+      "active": true,
+      "id": 8
+    },
+    {
+      "email": "demo01@gmail.com",
+      "password": "$2a$10$SeJUub7UK20VXe0o5HrYHOV667nXsiUVrZCPxyBGrBrQv1b6el4KO",
+      "user_name": "demo01",
+      "dateOfBirth": "2023-09-27",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2Fimages.jpg?alt=media&token=7bab4a4a-cc8b-4791-942c-b78ccbd8ff05",
+      "role": 1,
+      "active": true,
+      "id": 9
+    },
+    {
+      "email": "demo002@gmail.com",
+      "password": "$2a$10$UAgkffUByMNti.tnrZ6gb.UBUK5927gJ0zogUOVB5tQSbCI/H.DOu",
+      "user_name": "demo002",
+      "dateOfBirth": "2023-09-27",
+      "address": "Hà Nội",
+      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/users%2FHinh-Lisa-Blackpink-ngau-cool-nhat.jpg?alt=media&token=e2ff5135-7832-4b1e-8a25-7fa76cd82832",
+      "role": 1,
+      "active": true,
+      "id": 10
     }
   ],
   "products": [
@@ -132,7 +176,7 @@
       "price": "500000",
       "description": "URSA Baby Pro là chiến binh mới nhất vừa được nhà Lost Vape tung ra thị trường vào giữa tháng 12/2022. Sự xuất hiện của pod URSA Baby Pro hứa hẹn sẽ mang đến nhiều sóng gió cho đường đua pod system cuối năm nay.",
       "category_id": 1,
-      "quantity": "20",
+      "quantity": 15,
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F3-400x400.png?alt=media&token=8a5effd9-8e43-4727-a5c6-b8d6285e24c5",
       "id": 7
     },
@@ -168,7 +212,7 @@
       "price": "250000",
       "description": "Usalt E-Liquid Peach Ice 30ml 30mg tinh dầu chính hãng USA vị đào lạnh thơm mát sảng khoá",
       "category_id": 2,
-      "quantity": 28,
+      "quantity": 21,
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fjuice-tokyo-freebase-60ml-3mg-tao-lanh-vapeclub-400x400.png?alt=media&token=e4a6e818-7dbb-4aab-b968-9f0c1768763e",
       "id": 11
     },
@@ -177,7 +221,7 @@
       "price": "250000",
       "description": "Usalt E-Liquid Banana Ice 30ml 30mg Tinh dầu chính hãng USA vị chuối lạnh cực thơm ngon mát lạnh",
       "category_id": 2,
-      "quantity": "30",
+      "quantity": 27,
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F1-400x400.png?alt=media&token=57c1fb66-0f60-4789-bd0d-262a4c095d05",
       "id": 12
     },
@@ -186,7 +230,7 @@
       "price": "250000",
       "description": "Usalt E-Liquid Apple Ice 30ml 30mg tinh dầu chính hãng USA vị táo lạnh the mát",
       "category_id": 2,
-      "quantity": 28,
+      "quantity": 24,
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2F8-400x400.png?alt=media&token=c186cb23-f68b-4f41-853f-9c2656042186",
       "id": 13
     },
@@ -195,7 +239,7 @@
       "price": "300000",
       "description": "Queen Salt Plus Vang Nho 30ml 35mg",
       "category_id": 2,
-      "quantity": 29,
+      "quantity": 24,
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2FQueen-salt-plus-vang-nho-30ml-35mg-vapeclub-400x400.png?alt=media&token=db211550-f3ec-4146-8c6b-d4d378120156",
       "id": 14
     },
@@ -213,7 +257,7 @@
       "price": "350000",
       "description": "Tokyo Juice 60ml Freebase Táo Lạnh 3mg và độ lạnh không đối thủ, với hương vị xuất sắc mà tokyo mang lại chắc chắn sẽ khiến bạn phải hài lòng",
       "category_id": 3,
-      "quantity": 29,
+      "quantity": 28,
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fjuice-tokyo-freebase-60ml-3mg-tao-lanh-vapeclub-400x400.png?alt=media&token=73fa90c1-6bc6-4a2f-8920-32ea3e78e541",
       "id": 18
     },
@@ -222,7 +266,7 @@
       "price": "350000",
       "description": "Tokyo Juice 60ml Freebase Xoài Lạnh 3mg và độ lạnh không đối thủ, với hương vị xuất sắc mà tokyo mang lại chắc chắn sẽ khiến bạn phải hài lòng.",
       "category_id": 3,
-      "quantity": 29,
+      "quantity": 28,
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fjuice-tokyo-freebase-60ml-3mg-chuoi-lanh-vapeclub-400x400.png?alt=media&token=5582c9d3-d3e8-41a7-9f69-d148746bfb3d",
       "id": 19
     },
@@ -283,48 +327,17 @@
     {
       "product_name": "Dotmod Dot Disposable",
       "price": "150000",
-      "description": "hương vị táo đỏ chua ngọt cực ngon, cực mát lạnh.",
-      "category_id": 5,
-      "quantity": "30",
-      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdotmod-dot-disposable-tao-do-vapeclub-400x400.png?alt=media&token=c0bb9a40-cee1-4c14-869c-f6f64f69a0e1",
-      "id": 29
-    },
-    {
-      "product_name": "Dotmod Dot Disposable",
-      "price": "150000",
       "description": "Táo Xanh chua ngọt cực ngon, cực mát lạnh.",
       "category_id": 5,
       "quantity": "22",
       "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdotmod-dot-disposable-tao-lanh-vapeclub-400x400.png?alt=media&token=4e29c185-e307-41c9-8da4-db66d5aaa545",
       "id": 30
-    },
-    {
-      "product_name": "Dotmod Dot Disposable ",
-      "price": "150000",
-      "description": " Mâm xôi chanh chua ngọt cực ngon, cực mát lạnh.",
-      "category_id": 5,
-      "quantity": "20",
-      "image": "https://firebasestorage.googleapis.com/v0/b/login-with-eb4a2.appspot.com/o/image%2Fdotmod-dot-disposable-mam-xoi-chanh-vapeclub-400x400.png?alt=media&token=ea70a6e7-751f-45cc-8af6-ac5714e367dd",
-      "id": 31
     }
   ],
   "carts": [
     {
       "userId": 3,
-      "cart": [
-        {
-          "idProduct": 14,
-          "quantity": 4
-        },
-        {
-          "idProduct": 11,
-          "quantity": 1
-        },
-        {
-          "idProduct": 13,
-          "quantity": 1
-        }
-      ],
+      "cart": [],
       "id": 1
     },
     {
@@ -341,6 +354,39 @@
       "userId": 4,
       "cart": [],
       "id": 4
+    },
+    {
+      "userId": 7,
+      "cart": [],
+      "id": 5
+    },
+    {
+      "userId": 8,
+      "cart": [],
+      "id": 6
+    },
+    {
+      "userId": 9,
+      "cart": [],
+      "id": 7
+    },
+    {
+      "userId": 10,
+      "cart": [
+        {
+          "idProduct": 2,
+          "quantity": 1
+        },
+        {
+          "idProduct": 3,
+          "quantity": 1
+        },
+        {
+          "idProduct": 14,
+          "quantity": 1
+        }
+      ],
+      "id": 8
     }
   ],
   "orders": [
@@ -367,15 +413,32 @@
       "status": 2
     },
     {
-      "id": 1695742797114,
-      "userId": 4,
+      "id": 1695778486408,
+      "userId": 7,
+      "cart": [],
+      "totalPrice": 0,
+      "note": "giao hang nhanh",
+      "date": "08:34:46 27/9/2023",
+      "status": 2
+    },
+    {
+      "id": 1695779322351,
+      "userId": 3,
       "cart": [
+        {
+          "idProduct": 14,
+          "quantity": 4
+        },
+        {
+          "idProduct": 11,
+          "quantity": 1
+        },
         {
           "idProduct": 13,
           "quantity": 2
         },
         {
-          "idProduct": 14,
+          "idProduct": 18,
           "quantity": 1
         },
         {
@@ -383,32 +446,54 @@
           "quantity": 1
         }
       ],
-      "totalPrice": 1150000,
+      "totalPrice": 2650000,
       "note": "",
-      "date": "22:39:57 26/9/2023",
-      "status": 2
+      "date": "08:48:42 27/9/2023",
+      "status": 0
     },
     {
-      "id": 1695742809895,
-      "userId": 5,
+      "id": 1695789480393,
+      "userId": 9,
       "cart": [
         {
           "idProduct": 11,
+          "quantity": 3
+        },
+        {
+          "idProduct": 12,
           "quantity": 1
         },
         {
-          "idProduct": 22,
-          "quantity": 1
-        },
-        {
-          "idProduct": 2,
+          "idProduct": 13,
           "quantity": 1
         }
       ],
-      "totalPrice": 2130000,
+      "totalPrice": 1250000,
       "note": "",
-      "date": "22:40:09 26/9/2023",
-      "status": 0
+      "date": "11:38:00 27/9/2023",
+      "status": 2
+    },
+    {
+      "id": 1695789684540,
+      "userId": 10,
+      "cart": [
+        {
+          "idProduct": 11,
+          "quantity": 3
+        },
+        {
+          "idProduct": 12,
+          "quantity": 1
+        },
+        {
+          "idProduct": 13,
+          "quantity": 1
+        }
+      ],
+      "totalPrice": 1250000,
+      "note": "",
+      "date": "11:41:24 27/9/2023",
+      "status": 1
     }
   ]
 }

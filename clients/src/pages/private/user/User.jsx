@@ -69,7 +69,7 @@ export default function User() {
       render: (_, user) => (
         <div style={{ display: "flex", gap: "10px" }}>
           {user.role != 0 ? (
-            <Button danger onClick={() => dispatch(changeActiveUser(user))} className="bg-red-400">
+            <Button danger onClick={() => dispatch(changeActiveUser(user))} className="bg-red-400 text-white">
               {user.active ? "Khóa" : "Mở"}
             </Button>
           ) : (

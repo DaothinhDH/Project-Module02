@@ -1,8 +1,24 @@
 import React, { useEffect, useState } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import "./managerproduct.css";
-import {Table,Image,Button,Row,Col,Modal,Form,Input,Select,notification,} from "antd";
-import {createProduct,deleteProduct,getAllProduct,updateProduct,} from "../../../redux/productSlice/productSlice";
+import {
+  Table,
+  Image,
+  Button,
+  Row,
+  Col,
+  Modal,
+  Form,
+  Input,
+  Select,
+  notification,
+} from "antd";
+import {
+  createProduct,
+  deleteProduct,
+  getAllProduct,
+  updateProduct,
+} from "../../../redux/productSlice/productSlice";
 import TextArea from "antd/es/input/TextArea";
 import { getCategory } from "../../../redux/categorySlice/categorySlice";
 import { getDownloadURL, ref, uploadBytes } from "firebase/storage";
@@ -19,7 +35,7 @@ export default function Product() {
     {
       title: "#",
       dataIndex: "id",
-      key: "id",  
+      key: "id",
     },
     {
       title: "Name",
@@ -130,7 +146,8 @@ export default function Product() {
   const onFinish = (values) => {
     // console.log("thong tin:", values);
 
-    if (infoProdctUpdate) {
+    if (infoProdctUpdate && infoProdctUpdate.id) {
+      console.log("update");
       if (linkImg.includes("https")) {
         // console.log("update ko sua  anh");
         // console.log("==> :", values);
@@ -181,6 +198,7 @@ export default function Product() {
       return;
     }
 
+    console.log("them sp");
     const imageRef = ref(storage, `image/${fileUpload.name}`);
     uploadBytes(imageRef, fileUpload).then((snapshot) => {
       getDownloadURL(snapshot.ref)

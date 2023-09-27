@@ -1,7 +1,6 @@
 import { Route, Routes } from "react-router-dom";
 import "./assets/styles/main.css";
 import Home from "./pages/public/homePages/Home";
-import ProductList from "./pages/public/productLists/ProductList";
 import Contact from "./pages/public/contact/Contact";
 import About from "./pages/public/about/About";
 import Login from "./pages/public/login/Login";
@@ -19,6 +18,7 @@ import { useEffect, useState } from "react";
 import axios from "axios";
 import ProductDetail from "./pages/public/shoppingcartdetails/ProductDetail";
 import Products from "./pages/public/productLists/Products";
+import NotFound from "./pages/notfound/NotFound";
 
 function App() {
   const [cartLength, setCartLength] = useState(0);
@@ -55,6 +55,7 @@ function App() {
 
         <Route path="/login" element={<Login />} />
         <Route path="/register" element={<Register />} />
+        <Route path="*" element={<NotFound />} />
 
         <Route path="/admin" element={<PrivateRouter />}>
           <Route index element={<Home_Admin />} />

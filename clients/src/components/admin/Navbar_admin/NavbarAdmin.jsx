@@ -1,5 +1,6 @@
 import React, { useEffect,  } from "react";
 import { NavLink, Link, useNavigate } from "react-router-dom";
+import "./navadmin.css"
 import {
   KeyOutlined,
   LogoutOutlined,
@@ -60,10 +61,10 @@ export default function NavbarAdmin() {
     {
       key: "3",
       label: (
-        <a onClick={handleConfirmLogout}>
+        <Link onClick={handleConfirmLogout}>
           <LogoutOutlined className=" mt-2" />
           Đăng xuất
-        </a>
+        </Link>
       ),
     },
   ];
@@ -71,7 +72,7 @@ export default function NavbarAdmin() {
 
   return (
     <>
-      <div className="w-full bg-red-400 h-24 text-white flex items-center justify-between px-8">
+      <div className="w-full bg-slate-800 h-24 text-white flex items-center justify-between px-8">
         <div className="flex gap-4 items-center">
           <NavLink to={"/"}>
             <img style={{ width: 60 }} src="/images/logo.png" alt="" />

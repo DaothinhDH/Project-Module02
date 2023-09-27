@@ -9,11 +9,9 @@ export default function Products({ setIsLoad }) {
   const [products, setProducts] = useState([]);
   const cartUser = JSON.parse(localStorage.getItem("cartUser"));
   const [category, setCategory] = useState([]);
-    const [categoryId, setCategoryId] = useState(0);
-    const [currentPage, setCurrentPage] = useState(1);
+  const [categoryId, setCategoryId] = useState(0);
+  const [currentPage, setCurrentPage] = useState(1);
   const [pageSize, setPageSize] = useState(8);
-    
-    
 
   // gọi API lấy thông tin tất cả danh mục
   const loadDataCategory = async () => {
@@ -141,8 +139,7 @@ export default function Products({ setIsLoad }) {
                     <div className="text-center py-2">
                       <Button
                         type="primary "
-                        className="q-btn-primary"
-                        style={{ backgroundColor: "blue" }}
+                        className="bg-blue-600"
                         onClick={() => handleAddToCart(product.id)}
                       >
                         Thêm vào giỏ hàng

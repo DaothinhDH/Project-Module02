@@ -3,7 +3,7 @@ import axios from "axios";
 import "./productlist.css";
 import { Button, Image, Pagination, notification } from "antd";
 import { formatMoney } from "../../../utils/formatData";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 
 export default function ProductList({ setIsLoad }) {
   const [products, setProducts] = useState([]);
@@ -79,8 +79,7 @@ export default function ProductList({ setIsLoad }) {
                     <div className="text-center py-2">
                       <Button
                         type="primary "
-                        className="q-btn-primary"
-                        style={{ backgroundColor: "blue" }}
+                        className="bg-blue-500"
                         onClick={() => handleAddToCart(product.id)}
                       >
                         Thêm vào giỏ hàng
@@ -123,8 +122,7 @@ export default function ProductList({ setIsLoad }) {
                     <div className="text-center py-2">
                       <Button
                         type="primary "
-                        className="q-btn-primary"
-                        style={{ backgroundColor: "blue" }}
+                        className="bg-blue-600"
                         onClick={() => handleAddToCart(product.id)}
                       >
                         Thêm vào giỏ hàng

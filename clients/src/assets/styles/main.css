@@ -44,4 +44,12 @@ body {
   background: #f1f1f1;
   width: 10px;
 }
-
+.ant-dropdown-menu-vertical{
+  display: flex;
+  flex-direction:column;
+  justify-content:start; align-items:start;
+}
+.ant-pagination{
+  display: flex!important;
+  justify-content:center!important;
+}

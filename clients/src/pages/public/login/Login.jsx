@@ -69,7 +69,14 @@ export default function Login() {
         .post("http://localhost:3000/login", newUser)
         .then(async (response) => {
           if (response.status === 200) {
-            //lưu lên local
+            console.log(response.data.user.active);
+            if (!response.data.user.active) {
+              notification.error({
+                message: "Tai khoan da bi chan",
+              });
+              return;
+            }
+            // lưu lên local
             localStorage.setItem(
               "userLogin",
               JSON.stringify(response.data.user)

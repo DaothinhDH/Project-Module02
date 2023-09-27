@@ -2,10 +2,19 @@
 @tailwind components;
 @tailwind utilities;
 
-.ant-btn-primary {
+/* .ant-btn-primary {
   background-color: #1677ff;
+} */
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-div{
-  font-family: 'Times New Roman', Times, serif;
+a {
+  text-decoration: none !important;
+}
+
+button {
+  outline: none !important;
+  border-color: transparent;
 }

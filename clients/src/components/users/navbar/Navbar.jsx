@@ -73,8 +73,8 @@ export default function Navbar({ cartLength }) {
     {
       key: "3",
       label: (
-        <a onClick={handleConfirmLogout}>
-          <LogoutOutlined className=" mt-2" />
+        <a  onClick={handleConfirmLogout}>
+          <LogoutOutlined className=" mr-2" />
           Đăng xuất
         </a>
       ),

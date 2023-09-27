@@ -1,0 +1,38 @@
+.my-custom-classname .progress-wrapper:nth-child(odd) .ant-progress-inner,
+.my-custom-classname .progress-wrapper:hover .ant-progress-inner {
+  animation: rotate 2s infinite linear;
+}
+
+.my-custom-classname .progress-wrapper:nth-child(even) .ant-progress-inner {
+  animation: shake 0.5s infinite;
+}
+
+@keyframes shake {
+  0% {
+    transform: translateX(0);
+  }
+  25% {
+    transform: translateX(-5px);
+  }
+  50% {
+    transform: translateX(5px);
+  }
+  75% {
+    transform: translateX(-5px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  50% {
+    transform: rotate(180deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
